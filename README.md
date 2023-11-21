@@ -1,71 +1,37 @@
 ####Onligne Banking App
 
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Online Banking App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form id="signin-form">
+                <h2>Connexion</h2>
+                <label for="username">Nom d'utilisateur :</label>
+                <input type="text" id="username" required>
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" required>
+                <button type="submit">Se connecter</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <form id="signup-form">
+                <h2>Inscription</h2>
+                <label for="new-username">Nouveau nom d'utilisateur :</label>
+                <input type="text" id="new-username" required>
+                <label for="new-password">Nouveau mot de passe :</label>
+                <input type="password" id="new-password" required>
+                <button type="submit">S'inscrire</button>
+            </form>
+        </div>
+    </div>
 
-.container {
-    background-color: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    overflow: hidden;
-    width: 400px;
-}
-
-.header {
-    background-color: #ff8c00; /* Orange */
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-.form-container {
-    padding: 30px;
-}
-
-h2 {
-    color: #ff8c00; /* Orange */
-}
-
-label {
-    display: block;
-    margin: 15px 0 5px;
-    color: #333;
-}
-
-input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    width: 100%;
-    padding: 12px;
-    background-color: #ff8c00; /* Orange */
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #e07e00; /* Darker orange on hover */
-}
-
-.footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #ff8c00; /* Orange */
-    color: #fff;
-}
+    <script src="script.js"></script>
+</body>
+</html>
