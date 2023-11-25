@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Banque en Ligne</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ma Banque en Ligne</h1>
+    </header>
+    
+    <section>
+        <h2>Bienvenue sur votre compte bancaire en ligne</h2>
+        <p>Connectez-vous pour accéder à votre compte.</p>
+        <form action="/login" method="post">
+            <label for="username">Nom d'utilisateur :</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <input type="submit" value="Se Connecter">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Ma Banque en Ligne</p>
+    </footer>
+</body>
+</html>
