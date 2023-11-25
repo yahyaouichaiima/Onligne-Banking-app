@@ -15,6 +15,8 @@ Gestion des Cartes Bancaires: Accédez et gérez vos cartes bancaires, activez/d
 
 Historique des Transactions: Consultez l'historique détaillé de vos transactions pour suivre et analyser vos dépenses.
 
+virements : À l'aide de notre plateforme bancaire en ligne, vous pouvez facilement effectuer un virement en quelques clics, en spécifiant simplement le bénéficiaire, le montant et en confirmant la transaction en toute sécurité depuis le confort de votre domicile
+
 ## Guide d'Installation
 Sur un Navigateur Web
 Clonez ou téléchargez ce projet sur votre machine.
